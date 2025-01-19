@@ -5,12 +5,12 @@
 ##########################################################################
 
 ##########################################################################
-# The main table, this applies to all GrinchTrainer versions
+# The main table, applies to all GrinchTrainer versions
 ##########################################################################
 
 [MAIN]
 AllowNonStableBuilds = true
-BlockedMods = ["samp.dll", "samp.asi", "vcmp-proxy.dll", "vcmp-proxy.asi", "vcmp.asi", "vcmp.dll"]
+BlockedMods = ["FullSprint.asi", "samp.dll", "samp.asi", "vcmp-proxy.dll", "vcmp-proxy.asi", "vcmp.asi", "vcmp.dll"]
 ClientsEnabled = true
 EnableLogging = true
 ExceptionLogging = true
@@ -20,7 +20,7 @@ UnsupportedMods = ["CheatMenuIII.asi", "CheatMenuVC.asi", "CheatMenuSA.asi", "gt
 
 
 ##########################################################################
-# Versions specific tables, applies to that version only
+# Versions-specific tables, apply to that version only
 ##########################################################################
 [1.0]
 ClientEnabled = true
